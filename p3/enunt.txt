@@ -1,0 +1,1 @@
+Se citesc de la linia de comanda n argumente, pentru fiecare argument se face cate un thread care numara vocalele din argument intr-o variabila globala. 

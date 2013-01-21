@@ -1,0 +1,1 @@
+Clientul trimite linii serverului din 10 in 10 secunde, serverul afiseaza liniile primite prea repede sau prea tarziu

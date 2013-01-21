@@ -1,0 +1,1 @@
+Sa se scrie doua programe care comunica prin socket. La intervale aleatoare de timp, primul program citeste cate o linie de la intrarea lui standard si trimite celuilalt continutul acestei linii. La citirea liniei, al doilea program elimina cifrele din continutul acesteia si o tipareste pe iesirea lui standard.

@@ -1,0 +1,2 @@
+Clientul trimite numele userului autentificat si serverul numara cate procese sunt si le trimite inapoi. 
+(foarte sketchy)

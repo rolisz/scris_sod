@@ -1,0 +1,1 @@
+Sa se scrie un program care cauta in n fisiere text, ale caror nume sunt date ca argumente in linia de comanda, liniile care contin stringul "Cautare". Pentru fiecare fisier se va crea cate un thread, care va afisa numarul de linii in care apare stringul.
