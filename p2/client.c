@@ -38,4 +38,5 @@ int main() {
       sleep(sl);
       i++;
    }
+   close(sock);
 }
