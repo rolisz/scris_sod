@@ -22,6 +22,7 @@ void* thread_start(void* arg) {
   }
   fclose(f);
   printf("In fisierul %s Cautare a fost gasit de %d ori \n",file, i);
+  free(file);
   return 0;
 }
 
@@ -44,5 +45,6 @@ int main(int argc, char* argv[]) {
   for (i = 1; i < argc; i++) {
     pthread_join(threads[i],NULL);
   }
+  free(threads);
   return 0;
 }
