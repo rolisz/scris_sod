@@ -32,6 +32,6 @@ int main(int argc, char* argv[]) {
  nr = ntohs(nr);
 
  printf("Sunt %d procese \n",nr);
-
+ close(serv);
  return 0;
 }
