@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <pthread.h>
 
-int nr;
+int nr = 0;
 pthread_mutex_t mutex;
 
 void* thread_func(void* arg) {
@@ -20,6 +20,7 @@ void* thread_func(void* arg) {
         pthread_mutex_unlock(&mutex);
       }
     }
+    free(cuvant);
     return 0;
 }
 
